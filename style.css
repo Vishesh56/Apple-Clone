@@ -1,0 +1,521 @@
+@font-face {
+  font-family: myfont;
+  src: url(./Gilroy-Medium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: myfont;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#page1 {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(81, 81, 81);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+#nav h5 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+  /* margin-left: 10px;
+  margin-right: 20px; */
+}
+
+#nav h5:hover {
+  color: rgb(234, 234, 234);
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+#nav i {
+  color: #fff;
+  /* margin-left: 10px;
+  margin-right: 20px; */
+}
+
+#nav2 p {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  margin: 5px 0;
+  color: rgb(95, 95, 95);
+}
+
+#nav2 a {
+  text-decoration: none;
+  color: royalblue;
+}
+
+#center {
+  height: 85%;
+  width: 100%;
+  background-color: #000;
+  background-image: url(https://www.apple.com/v/home/bc/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#center h1 {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, 0);
+  font-size: 60px;
+  font-weight: 600;
+}
+
+#center h2 {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, 0);
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#center #links {
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#links a {
+  font-size: 18px;
+  color: rgb(88, 121, 218);
+  text-decoration: none;
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+#links a:hover {
+  text-decoration: underline;
+}
+
+#page2 {
+  height: 70%;
+  width: 100%;
+  background-color: #fff;
+  background-image: url(https://www.apple.com/v/home/bc/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_large_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#page2 h1 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 60px;
+  font-weight: 600;
+}
+
+#page2 h2 {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#page2 #links {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#page3 {
+  height: 80%;
+  width: 100%;
+  background-image: url(https://web.archive.org/web/20230522001316im_/https://www.apple.com/v/home/az/images/heroes/apple-watch-series-8/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_large_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#page3 h1 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-58%, 0);
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#page3 h3 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  letter-spacing: 6px;
+  color: rgb(199, 4, 4);
+  font-weight: 400;
+}
+
+#page3 h2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+
+#page3 #links {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#page4 {
+  height: 70%;
+  width: 100%;
+  display: flex;
+}
+
+#page4 #left {
+  height: 100%;
+  width: 50%;
+  background-image: url(https://web.archive.org/web/20230522001320im_/https://www.apple.com/v/home/az/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_large_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  position: relative;
+}
+
+#page4 #left h1 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#page4 #left h2 {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#page4 #left #links {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-45%, 0);
+}
+
+#page4 #right {
+  height: 100%;
+  background-image: url(https://web.archive.org/web/20230522001334im_/https://www.apple.com/v/home/az/images/promos/wwdc23-announce/promo_wwdc23__b68ptht3mro2_large_2x.jpg);
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  position: relative;
+  margin-left: 0;
+}
+
+#page4 #right h1 {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#page4 #right h2 {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  text-align: center;
+  width: 100%;
+  transform: translate(-50%, 0);
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+#page4 #right #links {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-45%, 0);
+  color: #fff;
+}
+
+#page5 {
+  height: 70%;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+}
+
+#page5 #left {
+  height: 100%;
+  width: 50%;
+  background-image: url(https://web.archive.org/web/20230522001722im_/https://www.apple.com/v/home/az/images/promos/ipad/promo_ipad__fioegapg12qi_large_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  position: relative;
+}
+
+#page5 #left h1 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#page5 #left h2 {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#page5 #left #links {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-45%, 0);
+}
+
+#page5 #right {
+  height: 100%;
+  background-image: url(https://web.archive.org/web/20230522001548im_/https://www.apple.com/v/home/az/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_large_2x.jpg);
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  position: relative;
+  margin-left: 0;
+}
+
+#page5 #right h1 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#page5 #right h2 {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  text-align: center;
+  width: 100%;
+  transform: translate(-50%, 0);
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+#page5 #right #links {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-45%, 0);
+  color: #fff;
+}
+
+#page6 {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+
+#page6 #left {
+  height: 100%;
+  width: 50%;
+  background-image: url(https://web.archive.org/web/20230522001623im_/https://www.apple.com/v/home/az/images/promos/homepod/promo_homepod__f7jnolq94m2y_large_2x.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  position: relative;
+}
+
+#page6 #left h1 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#page6 #left h2 {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+#page6 #left #links {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-45%, 0);
+}
+
+#page6 #right {
+  height: 100%;
+  background-image: url(https://web.archive.org/web/20230522001622im_/https://www.apple.com/v/home/az/images/promos/apple-card/tile__cauwwcyyn9hy_large_2x.jpg);
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  position: relative;
+  margin-left: 0;
+}
+
+#page6 #right h1 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#page6 #right h2 {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  text-align: center;
+  width: 100%;
+  transform: translate(-50%, 0);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#page6 #right #links {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-45%, 0);
+}
+
+#page7 {
+  height: 70%;
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(248, 248, 248);
+}
+
+#page7 p {
+  color: rgb(136, 136, 136);
+  width: 80%;
+  font-size: 14px;
+  padding-top: 40px;
+  padding-left: 300px;
+  padding-bottom: 20px;
+}
+
+#box {
+  display: flex;
+  padding: 0 auto;
+  justify-content: space-between;
+  margin: 20px 300px;
+}
+
+#box p {
+  padding: 0;
+  border: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+#box p:hover {
+  text-decoration: underline;
+}
+
+#elem1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#elem2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#elem3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#elem4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#elem5 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#box2 p {
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#box2 {
+  display: flex;
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-top: 40px;
+}
